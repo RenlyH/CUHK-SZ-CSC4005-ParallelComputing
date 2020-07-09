@@ -1,0 +1,1 @@
+/usr/local/bin/g++-9   -std=c++11 -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/opm_test.dir/omp_test.cpp.o  -o opm_test  -L/opt/X11/lib -Wl,-rpath,/opt/X11/lib -lX11 

@@ -1,0 +1,8 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=5,mem=1g,walltime=00:05:00
+#PBS -q batch
+#PBS -m abe
+#PBS -j oe
+#PBS -V
+
+timeout 300 mpiexec -n 2 -f /home/mpi_config /code/116010073/HW2/mpi.out -x 3200 -y 3200

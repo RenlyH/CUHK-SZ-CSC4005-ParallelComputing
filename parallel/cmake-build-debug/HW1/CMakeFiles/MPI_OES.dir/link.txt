@@ -1,0 +1,1 @@
+/usr/local/Cellar/mpich/3.3.1/bin/mpic++   -std=c++11 -fopenmp -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/MPI_OES.dir/MPI.cpp.o  -o MPI_OES  -L/opt/X11/lib -Wl,-rpath,/opt/X11/lib -lX11 

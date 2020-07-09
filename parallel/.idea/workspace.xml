@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="parallel" targetName="MPI_OES" />
+      <config projectName="parallel" targetName="parallel" />
+      <config projectName="parallel" targetName="seq" />
+      <config projectName="parallel" targetName="heat_mpi" />
+      <config projectName="parallel" targetName="Seq_Mandel" />
+      <config projectName="parallel" targetName="moving" />
+      <config projectName="parallel" targetName="Seq_OES" />
+      <config projectName="parallel" targetName="HW2" />
+      <config projectName="parallel" targetName="x11" />
+      <config projectName="parallel" targetName="HW4_test" />
+      <config projectName="parallel" targetName="list" />
+      <config projectName="parallel" targetName="heat_omp" />
+      <config projectName="parallel" targetName="MPI_Mandel" />
+      <config projectName="parallel" targetName="pth" />
+      <config projectName="parallel" targetName="heat_ompi" />
+      <config projectName="parallel" targetName="omp" />
+      <config projectName="parallel" targetName="Ptd_Mandel" />
+      <config projectName="parallel" targetName="exer" />
+      <config projectName="parallel" targetName="heat_seq" />
+      <config projectName="parallel" targetName="heat_pth" />
+      <config projectName="parallel" targetName="list4" />
+      <config projectName="parallel" targetName="mpi" />
+      <config projectName="parallel" targetName="ompi" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="851ae430-8265-4a7a-aa49-df6335b5a5b6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1SufiiYK8nBbvat3YsyautlrR1h" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HW4" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW4/old_per" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/HW4" />
+      <recent name="$PROJECT_DIR$/HW3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.pth">
+    <configuration name="HW2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="HW2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="HW2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HW4_test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="HW4_test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="HW4_test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPI_Mandel" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./MPI_Mandel -x 400 -y 400" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW2" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="MPI_Mandel" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MPI_OES" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./MPI_OES -m 200" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW1" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="MPI_OES" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ptd_Mandel" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="Ptd_Mandel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="Ptd_Mandel">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seq_Mandel" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="Seq_Mandel" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="Seq_Mandel">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seq_OES" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="Seq_OES" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="Seq_OES">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="exer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="exer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heat_mpi" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./heat_mpi " WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="heat_mpi" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heat_omp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="heat_omp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="heat_omp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heat_ompi" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./heat_ompi " WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW4" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="heat_ompi" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heat_pth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="heat_pth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="heat_pth">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heat_seq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="heat_seq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="heat_seq">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="list">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="list4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="list4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="list4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moving" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="moving" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="moving">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mpi" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./mpi  " WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="mpi" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="omp" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug/HW3" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="omp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="omp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ompi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="ompi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="ompi">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="parallel" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./parallel" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="parallel" CONFIG_NAME="Debug" RUN_PATH="/usr/local/bin/mpirun">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pth" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="pth" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="pth">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="seq" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="seq" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="seq">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="x11" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="parallel" TARGET_NAME="x11" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="parallel" RUN_TARGET_NAME="x11">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="三体均衡情况" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW3/三体均衡情况.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mandelbrot" type="PythonConfigurationType" factoryName="Python">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/Mandelbrot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="make_list" type="PythonConfigurationType" factoryName="Python">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/make_list.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW4/plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW2/plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW3/plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW3/ss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zyw-3body" type="PythonConfigurationType" factoryName="Python">
+      <module name="paralle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Machine_Learning/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW3/zyw-3body.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.parallel" />
+      <item itemvalue="CMake Application.MPI_OES" />
+      <item itemvalue="CMake Application.Seq_OES" />
+      <item itemvalue="CMake Application.exer" />
+      <item itemvalue="CMake Application.HW2" />
+      <item itemvalue="CMake Application.moving" />
+      <item itemvalue="CMake Application.MPI_Mandel" />
+      <item itemvalue="CMake Application.Ptd_Mandel" />
+      <item itemvalue="CMake Application.Seq_Mandel" />
+      <item itemvalue="CMake Application.x11" />
+      <item itemvalue="CMake Application.list" />
+      <item itemvalue="CMake Application.mpi" />
+      <item itemvalue="CMake Application.omp" />
+      <item itemvalue="CMake Application.ompi" />
+      <item itemvalue="CMake Application.pth" />
+      <item itemvalue="CMake Application.seq" />
+      <item itemvalue="CMake Application.heat_mpi" />
+      <item itemvalue="CMake Application.heat_omp" />
+      <item itemvalue="CMake Application.heat_ompi" />
+      <item itemvalue="CMake Application.heat_pth" />
+      <item itemvalue="CMake Application.heat_seq" />
+      <item itemvalue="CMake Application.HW4_test" />
+      <item itemvalue="CMake Application.list4" />
+      <item itemvalue="Python.plot" />
+      <item itemvalue="Python.make_list" />
+      <item itemvalue="Python.Mandelbrot" />
+      <item itemvalue="Python.zyw-3body" />
+      <item itemvalue="Python.ss" />
+      <item itemvalue="Python.三体均衡情况" />
+      <item itemvalue="Python.plot1" />
+      <item itemvalue="Python.plot (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.plot (1)" />
+        <item itemvalue="Python.plot1" />
+        <item itemvalue="Python.三体均衡情况" />
+        <item itemvalue="Python.ss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="851ae430-8265-4a7a-aa49-df6335b5a5b6" name="Default Changelist" comment="" />
+      <created>1572418529196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572418529196</updated>
+      <workItem from="1572418530809" duration="850000" />
+      <workItem from="1572422739661" duration="2487000" />
+      <workItem from="1572425491966" duration="26564000" />
+      <workItem from="1572761790333" duration="52398000" />
+      <workItem from="1573003645559" duration="2126000" />
+      <workItem from="1573023616812" duration="71000" />
+      <workItem from="1573039311587" duration="2518000" />
+      <workItem from="1573056772154" duration="63953000" />
+      <workItem from="1573351127794" duration="28164000" />
+      <workItem from="1573660271790" duration="405000" />
+      <workItem from="1573831044560" duration="2135000" />
+      <workItem from="1573915823803" duration="14517000" />
+      <workItem from="1574045248624" duration="6472000" />
+      <workItem from="1574057946799" duration="15928000" />
+      <workItem from="1574171559945" duration="1285000" />
+      <workItem from="1574179684639" duration="787000" />
+      <workItem from="1574217627325" duration="49112000" />
+      <workItem from="1574518067357" duration="348000" />
+      <workItem from="1574649442930" duration="3718000" />
+      <workItem from="1574686069117" duration="19931000" />
+      <workItem from="1580111263171" duration="1357000" />
+      <workItem from="1583944605723" duration="34000" />
+      <workItem from="1583944643721" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="parallel"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\HW1\;CMake Files\HW2\;CMake Files\HW3\;CMake Files\HW4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parallel">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/parallel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="parallel/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/parallel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 parallel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seq_OES">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1/Seq_OES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 Seq_OES"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seq_OES/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1/Seq_OES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 Seq_OES/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPI_OES">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1/MPI_OES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 MPI_OES"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPI_OES/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1/MPI_OES" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 MPI_OES/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPI_Mandel">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/MPI_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 MPI_Mandel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPI_Mandel/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/MPI_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 MPI_Mandel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ptd_Mandel">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/Ptd_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 Ptd_Mandel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ptd_Mandel/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/Ptd_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 Ptd_Mandel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seq_Mandel">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/Seq_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 Seq_Mandel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Seq_Mandel/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/Seq_Mandel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 Seq_Mandel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moving">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 moving"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moving/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/moving" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 moving/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x11">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/x11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 x11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="x11/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/x11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 x11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exer">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/exer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 exer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exer/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/exer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 exer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW2">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/HW2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 HW2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW2/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2/HW2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW2"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 HW2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ompi">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/ompi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 ompi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ompi/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/ompi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 ompi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="omp">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/omp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 omp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="omp/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/omp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 omp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 mpi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mpi/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 mpi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pth">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/pth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 pth"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pth/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/pth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 pth/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seq">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/seq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 seq"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="seq/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3/seq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 seq/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list4">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/list4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 list4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list4/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/list4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 list4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_pth">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_pth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_pth"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_pth/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_pth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_pth/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_seq">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_seq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_seq"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_seq/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_seq" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_seq/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_mpi">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_mpi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_mpi/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_mpi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_mpi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_ompi">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_ompi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_ompi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_ompi/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_ompi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_ompi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_omp">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_omp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_omp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heat_omp/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/heat_omp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 heat_omp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW4_test">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/HW4_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 HW4_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW4_test/fast">
+				<Option output="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4/HW4_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/cmake-build-debug/HW4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/opt/X11/include"/>
+					<Add directory="/usr/local/Cellar/mpich/3.3.1/include"/>
+					<Add directory="/usr/local/opt/llvm/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.0_1/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 HW4_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/renly/OneDrive\ -\ CUHK-Shenzhen/CUHKSZ/2019-2020\ T1/CSC4005/parallel/cmake-build-debug/HW4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW1/MPI.cpp">
+			<Option target="MPI_OES"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW1/Seq.cpp">
+			<Option target="Seq_OES"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/MPI_Mandelbrot.cpp">
+			<Option target="MPI_Mandel"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/Ptd_Mandelbrot.cpp">
+			<Option target="Ptd_Mandel"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/Seq_MandelBrot.cpp">
+			<Option target="Seq_Mandel"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/hello_X.cpp">
+			<Option target="HW2"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/x11.cpp">
+			<Option target="x11"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/x11_exercise.cpp">
+			<Option target="exer"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/x11_moving_object.cpp">
+			<Option target="moving"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/make_list.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/mpi_N_body.cpp">
+			<Option target="mpi"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/omp_N_body.cpp">
+			<Option target="omp"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/ompi_N_body.cpp">
+			<Option target="ompi"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/pth_N_body.cpp">
+			<Option target="pth"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/seq_N_body.cpp">
+			<Option target="seq"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/make_list.cpp">
+			<Option target="list4"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/mpi_heat.cpp">
+			<Option target="heat_mpi"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/omp_heat.cpp">
+			<Option target="heat_omp"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/ompi_heat.cpp">
+			<Option target="heat_ompi"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/pth_heat.cpp">
+			<Option target="heat_pth"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/seq_heat.cpp">
+			<Option target="heat_seq"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/test.cpp">
+			<Option target="HW4_test"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/main.cpp">
+			<Option target="parallel"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW1\"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW2\"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW3\"/>
+		</Unit>
+		<Unit filename="/Users/renly/OneDrive - CUHK-Shenzhen/CUHKSZ/2019-2020 T1/CSC4005/parallel/HW4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\HW4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
